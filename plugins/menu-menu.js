@@ -1,9 +1,10 @@
 import fs, { promises } from 'fs'
 import fetch from 'node-fetch'
 let handler = async (m, { conn, usedPrefix, usedPrefix: _p, __dirname, text }) => {
-try { 
+try {
 let vn = './media/menu.mp3'
 let pp = './Menu2.jpg'
+let img = await(await fetch).buffer()
 let d = new Date(new Date + 3600000)
 let locale = 'es'
 let week = d.toLocaleDateString(locale, { weekday: 'long' })
