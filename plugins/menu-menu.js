@@ -486,7 +486,6 @@ mentionedJid: [m.sender],
 externalAdReply: {
 showAdAttribution: true,
 mediaType: 'VIDEO',
-mediaUrl: null,
 body: null,
 }}}
 conn.sendMessage(m.chat, buttonMessage, { quoted: m })
