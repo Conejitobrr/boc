@@ -487,7 +487,6 @@ externalAdReply: {
 showAdAttribution: true,
 mediaType: 'VIDEO',
 mediaUrl: null,
-title: '👑 𝐓𝐇𝐄 𝐌𝐘𝐒𝐓𝐈𝐂 - 𝐁𝐎𝐓 👑',
 body: null,
 }}}
 conn.sendMessage(m.chat, buttonMessage, { quoted: m })
